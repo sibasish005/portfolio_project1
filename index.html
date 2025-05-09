@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sibasish_portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+
+  </head>
+  <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LogoSib2.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>JavaScript Developer</p>
+                <h1>Hi,<br>I'm <span> Sibasish </span>Chakraborti from india</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section  -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                   <img src="images/userAbout.png" alt="">
+                </div>
+                <div class="About-col-2">
+                    <h1>About Me </h1>
+                    <p class="text-about-me">I am a JavaScript developer with a strong command of the language across all its core aspects. I have a deep understanding of variables, functions, objects, arrays as well as advanced concepts like asynchronous programming (callbacks, promises, async/await), the event loop, and closures.  and I'm currently expanding into Node.js to build full-stack applications.</p>
+                    <div class="tab-titles">
+                      <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                      <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                      <p class="tab-links"onclick="opentab('Education')">Education</p>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul> 
+                            <li><span>HTML</span><br>HTML fundamentals.</li>
+                            <li><span>CSS</span><br>Experienced in styling with CSS.</li>
+                            <li><span>JavaScript</span><br>Proficient in core JavaScript concepts.</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025</span><br>Web Developer Intern,Das Solutions,Indore,MP,India</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br> BCA ,NIELIT Agartala</li>
+                            
+                        </ul>
+                    </div>
+                  
+
+                </div>
+            </div>
+                
+            </div>
+        </div>
+     </div>
+
+     <!-- -------------services----------- -->
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="service-item">
+                    <img src="images/htmlimg.png" >
+                    <br>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2 class="service-title">HTML</h2>
+                    <p>We build fast, responsive, and secure web applications tailored to your business needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/cssimg.png">
+                    <br>
+                    <i class="fa-brands fa-css3"></i>
+                    <h2 class="service-title">CSS </h2>
+                    <p>We create clean, modern, and responsive designs using advanced CSS techniques </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/jsimg.png">
+                    <br>
+                    <i class="fa-brands fa-js"></i>
+                    <h2 class="service-title">JavaScript</h2>
+                    <p>We add interactivity and dynamic features to websites using modern JavaScript practices </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    
+      <!-- --------------portfolio------------------->
+       <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+            <div class="work">
+                <img src="images/todo list.png" >
+                <div class="layer">
+                    <h3>Todo-list</h3>
+                    <p>
+                        A tool to organize your timetable.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tic2.png" >
+                <div class="layer">
+                    <h3>Tic-Tac-Toe</h3>
+                    <p>
+                        Enjoy playing Tic-Tac-Toe.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3_2.png" >
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>detailed portfolio website in plain html css js</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            </div>
+
+        </div>
+       </div>
+       <!-- -------------------script----------------- -->
+  </body>
+  <script src="script.js"></script>
+</html>
